@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Escaner</string>
+
+    <!-- General Actions -->
+    <string name="action_scan">Escanear</string>
+    <string name="action_capture">Capturar</string>
+    <string name="action_add_page">Añadir página</string>
+    <string name="action_save_pdf">Guardar PDF</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_rename">Renombrar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_reset">Restablecer</string>
+    <string name="action_confirm_crop">Confirmar recorte</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_discard">Descartar</string>
+    <string name="action_continue_scanning">Continuar escaneando</string>
+    <string name="action_grant_permission">Conceder permiso</string>
+    <string name="action_open_settings">Abrir ajustes</string>
+    <string name="action_rotate_90">Rotar 90°</string>
+    <string name="action_adjust_edges">Ajustar bordes</string>
+
+    <!-- Screen Titles & Headers -->
+    <string name="title_home">Mis Documentos</string>
+    <string name="title_crop">Ajustar bordes</string>
+    <string name="title_review">Revisar escaneo</string>
+
+    <!-- Color Modes -->
+    <string name="color_mode_bw">Blanco y negro</string>
+    <string name="color_mode_color">Color</string>
+    <string name="color_mode_grayscale">Escala de grises</string>
+
+    <!-- History / Home Screen -->
+    <string name="empty_history_title">Aún no tienes documentos escaneados</string>
+    <string name="empty_history_subtitle">Toca el botón Escanear para digitalizar tu primera factura o comprobante.</string>
+    <string name="document_page_count_single">1 página</string>
+    <string name="document_page_count_plural">%1$d páginas</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_delete_title">Eliminar documento</string>
+    <string name="dialog_delete_message">¿Estás seguro de que deseas eliminar permanentemente el archivo \'%1$s\'? Esta acción no se puede deshacer.</string>
+
+    <string name="dialog_rename_title">Renombrar documento</string>
+    <string name="dialog_rename_hint">Nombre del documento</string>
+    <string name="dialog_rename_error_empty">El nombre no puede estar vacío</string>
+    <string name="dialog_rename_error_invalid_chars">El nombre contiene caracteres no permitidos (/ \\ : * ? \" &lt; &gt; |)</string>
+    <string name="dialog_rename_error_exists">Ya existe un documento con este nombre</string>
+
+    <string name="dialog_discard_batch_title">¿Descartar páginas?</string>
+    <string name="dialog_discard_batch_message">Tienes %1$d páginas escaneadas en esta sesión. Si sales ahora, se perderán las capturas realizadas.</string>
+
+    <string name="dialog_permission_camera_title">Permiso de cámara necesario</string>
+    <string name="dialog_permission_camera_message">Para escanear tus documentos y facturas, Escaner necesita acceso a la cámara de tu teléfono. Tus fotos nunca salen de tu dispositivo.</string>
+
+    <string name="dialog_saved_title">Documento guardado</string>
+    <string name="dialog_saved_message">El documento se guardó correctamente en Documentos/Escaner/%1$s</string>
+
+    <!-- Batch / Status Indicators -->
+    <string name="batch_page_indicator">Página %1$d de %2$d</string>
+    <string name="batch_pages_count">%1$d páginas escaneadas</string>
+    <string name="max_pages_reached">Límite alcanzado: máximo 20 páginas por lote</string>
+
+    <!-- Errors & Notifications -->
+    <string name="error_no_pdf_viewer">No se encontró ninguna aplicación instalada para abrir archivos PDF.</string>
+    <string name="error_save_pdf">Ocurrió un error al compilar y guardar el documento PDF.</string>
+    <string name="error_polygon_non_convex">Los cuatro puntos deben formar una figura cerrada válida.</string>
+</resources>
