@@ -45,7 +45,7 @@ Al inspeccionar `PolygonOverlayView.kt`:
 ## 4. Auditoría de Compilación y Validación
 * **Compilación de Kotlin/Compose:** `gradle compileDebugKotlin` completado exitosamente sin advertencias ni errores.
 * **Empaquetado de APK:** `gradle assembleDebug` completado en 36s produciendo el archivo:
-  `C:\Users\User\desarrollo\App Escaner\app\build\outputs\apk\debug\app-debug.apk`
+  `app/build/outputs/apk/debug/app-debug.apk`
 
 ---
 

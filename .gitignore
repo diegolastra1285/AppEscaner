@@ -45,9 +45,17 @@ captures/
 .idea/modules.xml
 .idea/workspace.xml
 
-# Keystore files
+# Kotlin
+.kotlin/
+
+# Keystore and secret files
 *.jks
 *.keystore
+*.env
+*.env.*
+*.secret
+*.key
+google-services.json
 
 # Universal
 .DS_Store
